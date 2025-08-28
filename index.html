@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;600;700&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="stopwatch-container">
+        <div class="header-section">
+            <h1 class="app-logo">Stopwatch</h1>
+            <p class="app-tagline">Professional Stopwatch</p>
+        </div>
+
+        <div class="timer-display-wrapper" id="timerWrapper">
+            <div class="main-timer" id="timerDisplay">00:00:00</div>
+        </div>
+
+        <div class="status-display">
+            <div class="status-dot idle" id="statusDot"></div>
+            <span class="status-label" id="statusLabel">Ready</span>
+        </div>
+
+        <div class="control-buttons">
+            <button class="control-btn btn-start" id="startButton" onclick="toggleTimer()">Start</button>
+            <button class="control-btn btn-lap" id="lapButton" onclick="addLap()" disabled>Lap</button>
+            <button class="control-btn btn-reset" id="resetButton" onclick="resetTimer()">Reset</button>
+        </div>
+
+        <div class="lap-records" id="lapRecords" style="display: none;">
+            <div class="lap-title">
+                <span>Lap Records</span>
+                <span class="lap-badge" id="lapBadge">0</span>
+            </div>
+            <div class="lap-list" id="lapList">
+                <div class="empty-laps">No laps recorded yet</div>
+            </div>
+        </div>
+
+        <div class="shortcuts-info">
+            <div class="shortcuts-header">Keyboard Controls</div>
+            <div class="shortcuts-grid">
+                <div class="shortcut-item">
+                    <span class="shortcut-key">SPACE</span>
+                    <span>Start/Pause</span>
+                </div>
+                <div class="shortcut-item">
+                    <span class="shortcut-key">L</span>
+                    <span>Lap</span>
+                </div>
+                <div class="shortcut-item">
+                    <span class="shortcut-key">R</span>
+                    <span>Reset</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
