@@ -1,8 +1,8 @@
-# ChronoMaster ⏱️
+# Stopwatch ⏱️
 
 A sleek, professional-grade stopwatch application built with vanilla JavaScript and modern CSS. Features a dark theme interface with glassmorphism effects, keyboard shortcuts, and advanced lap timing functionality.
 
-![ChronoMaster Demo](https://img.shields.io/badge/Status-Live-brightgreen) ![Version](https://img.shields.io/badge/Version-1.0.0-blue) ![License](https://img.shields.io/badge/License-MIT-green)
+![Stopwatch Demo](https://img.shields.io/badge/Status-Live-brightgreen) ![Version](https://img.shields.io/badge/Version-1.0.0-blue) ![License](https://img.shields.io/badge/License-MIT-green)
 
 ## ✨ Features
 
@@ -15,9 +15,6 @@ A sleek, professional-grade stopwatch application built with vanilla JavaScript 
 - **Status Indicators**: Visual feedback with animated status dots
 - **Professional Typography**: Clean, monospace fonts for precision display
 
-## 🚀 Live Demo
-
-[View Live Demo](https://your-username.github.io/chrono-master) *(Replace with your GitHub Pages URL)*
 
 ## 🎮 Controls
 
@@ -34,6 +31,8 @@ A sleek, professional-grade stopwatch application built with vanilla JavaScript 
 | `R` | Reset timer |
 
 ## 📱 Screenshots
+<img width="990" height="1056" alt="image" src="https://github.com/user-attachments/assets/d3301e55-4f0d-48f3-8707-2a4b97ba63b9" />
+
 
 ### Main Interface
 The clean, professional interface with the timer display and controls.
@@ -60,11 +59,6 @@ Fully responsive layout that adapts to any screen size.
 git clone https://github.com/your-username/chrono-master.git
 cd chrono-master
 ```
-
-### Option 3: Use with Live Server (Recommended for Development)
-1. Install [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) VS Code extension
-2. Right-click on `index.html`
-3. Select "Open with Live Server"
 
 ## 📁 Project Structure
 
@@ -123,7 +117,7 @@ The app uses CSS custom properties for easy theme customization:
 2. Scroll to "Pages" section
 3. Select "Deploy from a branch"
 4. Choose "main" branch
-5. Your app will be available at: `https://your-username.github.io/chrono-master`
+5. Your app will be available at: `https://Gautam-37.github.io`
 
 ### Other Platforms
 - **Netlify**: Drag and drop the project folder
@@ -167,9 +161,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 Author
 
 **Your Name**
-- GitHub: [@your-username](https://github.com/your-username)
-- LinkedIn: [Your Name](https://linkedin.com/in/your-profile)
-- Email: your.email@example.com
+- GitHub: Gautam-37(https://github.com/Gautam-37)
+- LinkedIn: (https://www.linkedin.com/in/gautam-kumar-242426328?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
+- Email: gautamkarprajapati@gmail.com
 
 ## 🙏 Acknowledgments
 
@@ -178,9 +172,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - CSS-Tricks for advanced CSS techniques
 - MDN Web Docs for JavaScript references
 
-## 📞 Support
 
-If you have any questions or run into issues, please [open an issue](https://github.com/your-username/chrono-master/issues) on GitHub.
 
 ---
 
